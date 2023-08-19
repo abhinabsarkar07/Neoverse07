@@ -1,0 +1,16 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  background: linear-gradient( to right, #24243e, #1e1d29, #0f0c29 );
+  font-family: 'Roboto Condensed', sans-serif;
+  color: white;
+  vertical-align: baseline;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
