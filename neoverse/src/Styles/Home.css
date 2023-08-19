@@ -1,0 +1,202 @@
+.bio_data {
+  display: flex;
+  align-items: center;
+  height: 500px;
+  padding: 50px 0px 25px 0px;
+  background-image: url(https://static.vecteezy.com/system/resources/thumbnails/001/624/835/original/abstract-technology-background-free-video.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.user_bio {
+  position: relative;
+  left: 240px;
+}
+.user_bio > h1 {
+  font-size: 50px;
+  font-weight: 600;
+}
+.user_bio > span {
+  font-weight: bold;
+  color: crimson;
+  padding-left: 25%;
+}
+
+.talk {
+  background-color: rgba(13, 14, 34, 0.644);
+}
+
+.tech {
+  background-color: rgba(13, 14, 34, 0.644);
+  height: 265px;
+  padding: 25px 0px 25px 0px;
+  box-shadow: 0 8px 6px -8px black;
+}
+
+.tech_icons {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 15px 0px 15px 0px;
+}
+
+.tech_png:hover {
+  filter: drop-shadow(0px 0px 20px white);
+}
+
+.user_info {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.About_me {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  padding: 50px 0px 25px 0px;
+  box-shadow: 0 8px 6px -8px black;
+}
+.counter {
+  display: flex;
+  flex-direction: column;
+}
+.Bio {
+  padding: 0px 25px 0px 25px;
+  width: 50%;
+}
+.Bio > p {
+  font-size: 25px;
+  font-weight: 500;
+  line-break: strict;
+}
+.Bio > h3 {
+  font-size: 30px;
+  font-weight: bold;
+  line-break: strict;
+}
+.Bio_pic {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+.Bio_pic > img {
+  filter: drop-shadow(3px 71px 38px black);
+}
+.Bio_counts {
+  display: flex;
+  align-items: center;
+  gap: 8rem;
+  justify-content: space-evenly;
+}
+.Bio_buttons {
+  display: flex;
+  align-items: center;
+  gap: 5rem;
+  justify-content: space-evenly;
+}
+.strike {
+  padding: 15px 0px 15px 0px;
+}
+.strike > span {
+  color: crimson;
+  font-size: 30px;
+  font-weight: bold;
+}
+.strike > p {
+  font-size: 15px;
+  font-weight: bold;
+  margin: 0px;
+}
+
+.projects {
+  padding: 50px 0px 25px 0px;
+}
+
+.project_pics {
+  filter: drop-shadow(3px 49px 60px black);
+}
+
+.show1 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  margin: 65px 0px 65px 0px;
+}
+
+.pic1_content {
+  width: 50%;
+}
+.pic1_content > h3 {
+  font-size: 35px;
+  font-weight: bold;
+  color: white;
+}
+
+.pic1_content > p {
+  font-size: 18px;
+  line-break: strict;
+  color: rgba(255, 255, 255, 0.562);
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.refer {
+  background-color: rgba(13, 14, 34, 0.644);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 50px 0px 50px 0px;
+  box-shadow: 0 8px 6px -8px black;
+}
+
+.social_png {
+  width: 50px;
+  padding: 0px 10px 0px 10px;
+}
+
+.social_png:hover {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.contact_form {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 50px 0px 50px 0px;
+}
+
+.user_pic {
+  border-radius: 50%;
+  overflow: hidden;
+  filter: drop-shadow(10px 30px 35px black);
+}
+
+.footer {
+  background-color: rgba(13, 14, 34, 0.644);
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+  box-shadow: 0 8px 6px -8px black;
+}
+.personal > h3 {
+  font-size: 25px;
+}
+.personal > h4 {
+  font-size: 25px;
+}
