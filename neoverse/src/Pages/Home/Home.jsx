@@ -349,11 +349,11 @@ function Home() {
         <div className="user">
           <img
             className="user_pic"
-            src="https://lh3.googleusercontent.com/pw/AIL4fc8DSHZcTuVbluLwZjCe9AMEBd8aVwLPeFxvV4_1YY2NLfcEh-gPxhnGVf4Y-1skr1KeaAFdSdVVO7ZCsDmzHTTR6uZlfa3kk12BtKZfLGjRHDqVgn6M93YuGlLQuZmFZEcJEkQBjCBVYxusV2jZ0EX4_7KMex2Sj5NKTDDAo-Vx_1BFfzaYc5NzSlKTjFEc1wo9HYGwzMi4Bdt-cU22qcWbiKLEHQFLIL8gj6liAP42GTTeOXrnAtTc33PEzuGLh_y8mzk_VbdqSuaAlqkF-8S3aLyBXI9Uu-mX8p5NYn2MhvPzp1Q7R0oeU3JrSFwCyhZX0YQ5tCYgbh4IaSSXHSHg_mcwFH_jsCX9dGjL_1jweDBauESgg92vNUytSByDJqu_K0EXNZyBJkfQnFu1-TUSCciYAIrQKxOB4dg8SjsmmVqf1uaE6zj6VG9nSjuxJY6mjDTKL2CjYteTnv3NPafS90WlNc6mVVmc2LPLncazhGXJ9FY5B8MMBo-Qgz5ljoYYw3HMiZh4SSxSYa4PGBwSK-T-HK0GkxaMpKHBK9KjJL1U7X0Qq8fnrQaDZ6Ig50U8ZROg1mDWUTc0GMv_833DFiYTZck-1xJyyDaCQBggiym-zqiURg70mGh9V8shmfRykwAmAHSuWjdxWT8peTjsMGOsZObipHd6cim-mRGFlZ_4yA5oNuGuYQFNobtolNbCIsGehKsCvVyX5p00rjp-n7KeHfyrFspPm7wchrRfc-1YdO-h3wLCy1FdkFeYRScWmjuH8zJawi7jOpBo6PAv_cFYyqYqJLld4QJNd1cAT18he9jbM88fB2ZC7yZNqqv_rX6hTXqcvt4jaL8K384Phqf-jzTe2xfuNEAORm0_rlGoPbMwCPoVRFuF4G_wjJo3jfJUJ9rZNG5ogXmj2DE=w1280-h719-s-no?authuser=0"
+            src="https://lh3.googleusercontent.com/pw/AIL4fc-8AcQcmLAktdQVO9nKkodM9v59MDlYqVUxn81lr13MVgiYywetD6_DR6qlhChehzqhfYwufxrj9Q8To51LZF3aPEq3Gx6Q6eI7ImQdz-GvO-Gy3NnORSZN_TT-09QsxxK02cM99333sQVaadl7jGkH8j2l_ucNQnTe4eIaBj_Q4a-wba2pzbH_xfs_hZRxNGo_AjSvwdVEBD16KrWlAadWTCIiJEJ-eYrdXsUtDwXOxb9XyHWL4lxKWpc19eXUQpR5NuorwITfM6oiFWtrnyuDUN6tLZqjf5p07DZdhJgJIuuQooTq6kIfasmyfaVchVjsdms2l_Ap2NGaX7SWofvPLzgtEo9vc4GBX3xYFPsAu4px79ity41MbFxR1etbUZ29DZT2RMmXeQHXKhFREPVlsxJrmuHcMA7gmEBZc-a86pH_1mYMRFanQK46kZbSEMseJ4T9mYZ6CP1zc1Sy4f6f8fb4s33Jwuw2L64wmgWhDj2wQLvK5wwRqr0pskKci3gqZH69aFs5SAY3wsRIjSxerBynYZo9zj3jngJbzI37NoiV5nl5VJNw-wj9gTqiAP_msJ6vqDDMqOiszBL5k1WGdmtMXf3y_R3Wovx7uvsXD3CgKrNdhQZe6SPQe6QokjF2fcVH7cl98tislIudvzhbwZM6FYRI4FIymKiw63hM2wVl4GhftjqzcrH4lPuE12hCixqyDaI1IlixI1Gr44Z8y_ireMOyyi4y_masj68T0qsnb6ZZ0_wwPpbJSyt5d1YBLPEGYQpnbp4Dzuho8LQhc8Jsvw8_ZA4V6fRDMjL38r5XALBY_Nam1Wrr46_PzBC8Atln08UMbm_hT7mRc9g8-tYPg8XvxDXaX3qMXUjfRNtoEa-Fg0JQnX203UD0w7dZn68hY7fUCd-Wyq0aqZY=w499-h499-s-no?authuser=0"
             alt="Avatar"
             style={{
-              width: "320px",
-              height: "320px",
+              width: "450px",
+              height: "450px",
             }}
           />
         </div>
