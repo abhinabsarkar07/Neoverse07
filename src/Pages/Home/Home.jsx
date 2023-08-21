@@ -185,7 +185,7 @@ function Home() {
                 className="project_pics"
                 src="https://clickup.com/blog/wp-content/uploads/2022/09/Google-Keep-Example.png"
                 alt=""
-                style={{ width: "30rem" }}
+                
               />
             </div>
 
@@ -236,7 +236,7 @@ function Home() {
                 className="project_pics"
                 src="https://user-images.githubusercontent.com/61585443/185205338-c20bb089-618f-49e2-b740-1c02838030a4.png"
                 alt=""
-                style={{ width: "30rem" }}
+                
               />
             </div>
           </div>
@@ -249,7 +249,7 @@ function Home() {
                 className="project_pics"
                 src="https://themeforest.img.customer.envatousercontent.com/files/447285452/fc/01_fc.png?auto=compress%2Cformat&fit=crop&crop=top&w=590&h=300&s=eec4a7f98ff807b896be37f06a48c02d"
                 alt=""
-                style={{ width: "30rem" }}
+                
               />
             </div>
 
@@ -301,7 +301,7 @@ function Home() {
                 className="project_pics"
                 src="https://assets.awwwards.com/awards/submissions/2018/08/5b7e5eaa8034e.jpg"
                 alt=""
-                style={{ width: "30rem" }}
+                
               />
             </div>
           </div>

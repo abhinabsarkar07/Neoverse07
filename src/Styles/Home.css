@@ -65,7 +65,7 @@
   justify-content: space-evenly;
   align-items: center;
   width: 100%;
-  padding: 50px 0px 25px 0px;
+  padding: 25px 0px 50px 0px;
   box-shadow: 0 8px 6px -8px black;
 }
 .counter {
@@ -126,6 +126,7 @@
 }
 
 .project_pics {
+  width: 35rem;
   filter: drop-shadow(3px 49px 60px black);
 }
 
@@ -199,6 +200,7 @@
   align-content: center;
   align-items: center;
   justify-content: space-evenly;
+  padding: 30px 0px 30px 0px;
   box-shadow: 0 8px 6px -8px black;
 }
 .personal > h3 {
@@ -243,7 +245,7 @@
   }
 
   .tech {
-    height: 330px
+    height: 330px;
   }
 
   .tech_icons {
@@ -254,13 +256,13 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
     padding: 15px 0;
-}
+  }
 
   .tech_doc {
     text-align: center;
     font-size: 25px;
     font-weight: bold;
-}
+  }
 
   .About_me {
     display: flex;
@@ -368,7 +370,7 @@
     text-align: center;
     font-size: 25px;
     font-weight: bold;
-}
+  }
 
   .About_me {
     display: flex;
@@ -411,5 +413,59 @@
   }
   .refer {
     padding: 15px 0px 15px 0px;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .user_bio > h1 {
+    font-size: 25px;
+    font-weight: bold;
+  }
+  .user_bio {
+    position: relative;
+    left: 30px;
+  }
+  .project_pics {
+    width: 25rem;
+  }
+  .Bio {
+    padding: 0px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .About_me {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    padding: 25px 0px 50px 0px;
+    box-shadow: 0 8px 6px -8px black;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .tech_icons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 47px;
+  }
+  .tech {
+    height: 285px;
+    font-size: 25px;
+    font-weight: bold;
+  }
+
+  .Bio_pic > img {
+    width: 350px;
+    filter: drop-shadow(3px 71px 38px black);
+  }
+
+  .projects {
+    padding: 25px 0px 25px 0px;
+  }
+
+  .project_pics {
+    width: 25rem;
   }
 }
