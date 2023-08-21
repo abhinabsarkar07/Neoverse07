@@ -32,6 +32,12 @@
   box-shadow: 0 8px 6px -8px black;
 }
 
+.tech_doc {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+}
+
 .tech_icons {
   display: flex;
   flex-wrap: wrap;
@@ -240,6 +246,12 @@
     height: 240px;
   }
 
+  .tech_doc {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+
   .About_me {
     display: flex;
     justify-content: space-evenly;
@@ -302,7 +314,7 @@
 
   .refer {
     padding: 15px 0px 15px 0px;
-}
+  }
 
   .contact_form {
     display: flex;
@@ -313,7 +325,6 @@
     margin: 50px 0px 50px 0px;
     flex-direction: column;
   }
-
 }
 
 @media only screen and (max-width: 600px) {
@@ -336,6 +347,18 @@
     font-size: 25px;
     font-weight: 600;
   }
+
+  .tech {
+    height: 270px;
+    font-size: 25px;
+    font-weight: bold;
+  }
+
+  .tech_doc {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
 
   .About_me {
     display: flex;
@@ -378,5 +401,5 @@
   }
   .refer {
     padding: 15px 0px 15px 0px;
-}
+  }
 }

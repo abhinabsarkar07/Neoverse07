@@ -42,15 +42,7 @@ function Home() {
       {/* tech showcase */}
 
       <div className="tech">
-        <div
-          style={{
-            display: "flex",
-            alignItems: "center",
-            justifyContent: "center",
-            fontSize: "30px",
-            fontWeight: "bold",
-          }}
-        >
+        <div className="tech_doc">
           <h2>My Tech Stack</h2>
         </div>
 
