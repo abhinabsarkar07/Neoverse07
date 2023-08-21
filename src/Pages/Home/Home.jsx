@@ -320,6 +320,7 @@ function Home() {
 
       <div className="refer">
         <div
+          className="hit"
           style={{
             fontSize: "25px",
             fontWeight: "bold",

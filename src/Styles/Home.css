@@ -71,9 +71,10 @@
   width: 50%;
 }
 .Bio > p {
-  font-size: 25px;
-  font-weight: 500;
-  line-break: strict;
+  font-size: 20px;
+  font-weight: 100;
+  color: rgba(255, 255, 255, 0.562);
+  line-break: auto;
 }
 .Bio > h3 {
   font-size: 30px;
@@ -199,4 +200,183 @@
 }
 .personal > h4 {
   font-size: 25px;
+}
+
+/* media queries only */
+
+@media only screen and (max-width: 1024px) {
+  .user_bio {
+    position: relative;
+    left: 30px;
+  }
+
+  .project_pics {
+    width: 27rem;
+  }
+
+  .pic1_content {
+    width: 40%;
+    line-break: auto;
+  }
+
+  .hit > h2 {
+    font-size: 25px;
+    font-weight: bold;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .user_bio {
+    position: relative;
+    left: 30px;
+  }
+
+  .user_bio > h1 {
+    font-size: 40px;
+    font-weight: bold;
+  }
+
+  .tech {
+    height: 240px;
+  }
+
+  .About_me {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    padding: 30px 0px 50px 0px;
+    box-shadow: 0 8px 6px -8px black;
+    flex-direction: column;
+  }
+  .Bio {
+    padding: 0px;
+    width: 50%;
+  }
+
+  .Bio > p {
+    font-size: 20px;
+    font-weight: 100;
+    color: rgba(255, 255, 255, 0.562);
+    line-break: auto;
+    text-align: center;
+  }
+
+  .show1 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    gap: 3rem;
+    margin: 65px 0px 0px 0px;
+    flex-direction: column;
+  }
+  .pic1_content > p {
+    font-size: 18px;
+    line-break: auto;
+    color: rgba(255, 255, 255, 0.562);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: center;
+  }
+
+  .pic1 {
+    display: flex;
+  }
+  .pic1_content {
+    width: 50%;
+    order: 1;
+  }
+
+  .pic1_content > h3 {
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+  }
+
+  .hit {
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .refer {
+    padding: 15px 0px 15px 0px;
+}
+
+  .contact_form {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 50px 0px 50px 0px;
+    flex-direction: column;
+  }
+
+}
+
+@media only screen and (max-width: 600px) {
+  .bio_data {
+    display: flex;
+    align-items: center;
+    height: 230px;
+    padding: 25px 0px 25px 0px;
+    background-image: url(https://static.vecteezy.com/system/resources/thumbnails/001/624/835/original/abstract-technology-background-free-video.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .user_bio {
+    position: relative;
+    left: 40px;
+  }
+
+  .user_bio > h1 {
+    font-size: 25px;
+    font-weight: 600;
+  }
+
+  .About_me {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    padding: 50px 0px 25px 0px;
+    box-shadow: 0 8px 6px -8px black;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .tech_icons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 15px 0px 15px 0px;
+    flex-direction: row;
+  }
+  .show1 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    margin: 65px 0px 65px 0px;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .pic1_content {
+    order: 1;
+    width: 70%;
+  }
+  .hit {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .refer {
+    padding: 15px 0px 15px 0px;
+}
 }
