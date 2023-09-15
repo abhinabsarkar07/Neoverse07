@@ -144,12 +144,12 @@ function Home() {
             <div className="counter">
               <div className="Bio_counts">
                 <div className="strike">
-                  <span>6 +</span>
-                  <p>Projects</p>
+                  <span style={{textAlign:"center"}}>6 +</span>
+                  <p  style={{textAlign:"center"}}>Projects</p>
                 </div>
                 <div className="strike">
-                  <span>90 +</span>
-                  <p>Happy Clients</p>
+                  <span  style={{textAlign:"center"}} >90 +</span>
+                  <p  style={{textAlign:"center"}} >Happy Clients</p>
                 </div>
               </div>
 
@@ -322,7 +322,7 @@ function Home() {
         </div>
 
         <div className="contact">
-          <Button className="talk" variant="contained">
+          <Button className="talk" variant="contained" href="#contact">
             Contact Now
           </Button>
         </div>
@@ -342,7 +342,7 @@ function Home() {
         <div className="user">
           <img
             className="user_pic"
-            src="https://lh3.googleusercontent.com/pw/AIL4fc-8AcQcmLAktdQVO9nKkodM9v59MDlYqVUxn81lr13MVgiYywetD6_DR6qlhChehzqhfYwufxrj9Q8To51LZF3aPEq3Gx6Q6eI7ImQdz-GvO-Gy3NnORSZN_TT-09QsxxK02cM99333sQVaadl7jGkH8j2l_ucNQnTe4eIaBj_Q4a-wba2pzbH_xfs_hZRxNGo_AjSvwdVEBD16KrWlAadWTCIiJEJ-eYrdXsUtDwXOxb9XyHWL4lxKWpc19eXUQpR5NuorwITfM6oiFWtrnyuDUN6tLZqjf5p07DZdhJgJIuuQooTq6kIfasmyfaVchVjsdms2l_Ap2NGaX7SWofvPLzgtEo9vc4GBX3xYFPsAu4px79ity41MbFxR1etbUZ29DZT2RMmXeQHXKhFREPVlsxJrmuHcMA7gmEBZc-a86pH_1mYMRFanQK46kZbSEMseJ4T9mYZ6CP1zc1Sy4f6f8fb4s33Jwuw2L64wmgWhDj2wQLvK5wwRqr0pskKci3gqZH69aFs5SAY3wsRIjSxerBynYZo9zj3jngJbzI37NoiV5nl5VJNw-wj9gTqiAP_msJ6vqDDMqOiszBL5k1WGdmtMXf3y_R3Wovx7uvsXD3CgKrNdhQZe6SPQe6QokjF2fcVH7cl98tislIudvzhbwZM6FYRI4FIymKiw63hM2wVl4GhftjqzcrH4lPuE12hCixqyDaI1IlixI1Gr44Z8y_ireMOyyi4y_masj68T0qsnb6ZZ0_wwPpbJSyt5d1YBLPEGYQpnbp4Dzuho8LQhc8Jsvw8_ZA4V6fRDMjL38r5XALBY_Nam1Wrr46_PzBC8Atln08UMbm_hT7mRc9g8-tYPg8XvxDXaX3qMXUjfRNtoEa-Fg0JQnX203UD0w7dZn68hY7fUCd-Wyq0aqZY=w499-h499-s-no?authuser=0"
+            src="https://lh3.googleusercontent.com/pw/AIL4fc-_rgIUnC4KCXiqzqF4G4kZ2NlXCPAaSet5cjeZ0IdNCaOZuPs4qSTmsSiXwJGEqlQbsqCg-DKjzCOyfWLjpXEVKXlXz0BtQKX6bljOw8OdF4amfa-dB_ztiy6r8Mq45t59UxqhE0zTLPTmC3HN_UC7djCgZSbMkaYEYYswUbP7Lh_rad-qjE_EiuTzjh6YdJWOycxeJSZR4Qk68nzugPi51KvLjb7H3DGKibyv1668Hkw-xlJjLRwet3eTqGNHWs9M9g4HDt35MZZ6Q3M6kzE77BMNe_vGZUpthFfOpKftPWfM3D2FL6bsNnirJnn_1aPOMH4md7MxFw_J9788qlxJfJYpjAIdRHtysMlF6SmWiIZKKxQbcGzFzb8fkXJ28FhmDALoqhHou4NeDE01-8GJy1u_AofHhQwRFFLp3Ovz3hYCU5VB3E_xOGIUN84WfTne2DMi0f41VTG4rwYGJ1hcmoVqbGuV06DTVc6WBqObwBAnxALxC8MZH6fmQlcRlvKnwsyxGnCwebcmbgXLvL_g3DtMCdMHkVzEg76N_rPqnJ5XIPPJ6OxBirUsYJiAFv37PHrWC2B-JJRQgEZuar9UFbQqk8B8DIil0BZbYGhON0xS0dfzHI4yO59SxYV1rywSBlLCiy8GsSgTtwmSeu24rw1ZTYSVOxrj4Wd7MSh3UkjT2EplVN2SfwdhrrLLFs16OHrw9Gvu9PwsVsTM4P46J0OeQjSgP4PrX0KP3tinJk2uo6l1LGgSvi94tIjpCBRQaqybVzHXFmDYQJhO5Ub1XfyepakDrHixt6yRJovqACXgkdE5_0yVJPRdfehBcZP3FOKq8bBzz0VJ8NB1CgHBhoBhFw2OHq39yd6YH8QeT7164YlXtE4dBMyvKdxu_cTnq6AePKham6__isBYgfI=w499-h499-s-no?authuser=0"
             alt="Avatar"
             style={{
               width: "450px",
@@ -350,7 +350,7 @@ function Home() {
             }}
           />
         </div>
-        <div className="form">
+        <div className="form" href="#contact">
           <ContactForm />
         </div>
       </div>

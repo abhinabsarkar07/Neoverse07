@@ -98,13 +98,13 @@
 .Bio_counts {
   display: flex;
   align-items: center;
-  gap: 8rem;
+  gap: 125px;
   justify-content: space-evenly;
 }
 .Bio_buttons {
   display: flex;
   align-items: center;
-  gap: 5rem;
+  gap: 75px;
   justify-content: space-evenly;
 }
 .strike {
