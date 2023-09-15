@@ -1,7 +1,6 @@
 .bio_data {
   display: flex;
   align-items: center;
-  height: 500px;
   padding: 50px 0px 25px 0px;
   background-image: url(https://static.vecteezy.com/system/resources/thumbnails/001/624/835/original/abstract-technology-background-free-video.jpg);
   background-repeat: no-repeat;
@@ -27,7 +26,7 @@
 
 .tech {
   background-color: rgba(13, 14, 34, 0.644);
-  height: 265px;
+
   padding: 25px 0px 25px 0px;
   box-shadow: 0 8px 6px -8px black;
 }
@@ -64,7 +63,7 @@
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  width: 100%;
+
   padding: 25px 0px 50px 0px;
   box-shadow: 0 8px 6px -8px black;
 }
@@ -74,7 +73,6 @@
 }
 .Bio {
   padding: 0px 25px 0px 25px;
-  width: 50%;
 }
 .Bio > p {
   font-size: 20px;
@@ -88,7 +86,6 @@
   line-break: strict;
 }
 .Bio_pic {
-  width: 50%;
   display: flex;
   justify-content: center;
 }
@@ -165,7 +162,6 @@
 }
 
 .social_png {
-  width: 50px;
   padding: 0px 10px 0px 10px;
 }
 
@@ -245,7 +241,7 @@
   }
 
   .tech {
-    height: 330px;
+    height: auto;
   }
 
   .tech_icons {
@@ -268,14 +264,13 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    width: 100%;
+
     padding: 30px 0px 50px 0px;
     box-shadow: 0 8px 6px -8px black;
     flex-direction: column;
   }
   .Bio {
     padding: 0px;
-    width: 50%;
   }
 
   .Bio > p {
@@ -343,7 +338,6 @@
   .bio_data {
     display: flex;
     align-items: center;
-    height: 230px;
     padding: 25px 0px 25px 0px;
     background-image: url(https://static.vecteezy.com/system/resources/thumbnails/001/624/835/original/abstract-technology-background-free-video.jpg);
     background-repeat: no-repeat;
@@ -361,7 +355,6 @@
   }
 
   .tech {
-    height: 280px;
     font-size: 25px;
     font-weight: bold;
   }
@@ -376,7 +369,6 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    width: 100%;
     padding: 50px 0px 25px 0px;
     box-shadow: 0 8px 6px -8px black;
     flex-direction: column;
@@ -430,7 +422,6 @@
   }
   .Bio {
     padding: 0px;
-    width: 100%;
     text-align: center;
   }
 
@@ -438,7 +429,7 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    width: 100%;
+
     padding: 25px 0px 50px 0px;
     box-shadow: 0 8px 6px -8px black;
     flex-direction: column;
@@ -451,7 +442,6 @@
     gap: 47px;
   }
   .tech {
-    height: 285px;
     font-size: 25px;
     font-weight: bold;
   }
