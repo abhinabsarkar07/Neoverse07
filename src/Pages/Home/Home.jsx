@@ -26,10 +26,11 @@ function Home() {
 
       <div className="bio_data">
         <div className="user_bio">
+          {/* Your page content goes here */}
           <h1>Hello Abhinab Sarkar Here </h1>
           <h1>
             I'm a <span>{text}</span>
-            <span style={{ color: "white" }}>
+            <span style={{ color: "red" }}>
               <Cursor cursorStyle="|" />
             </span>
           </h1>
@@ -144,12 +145,12 @@ function Home() {
             <div className="counter">
               <div className="Bio_counts">
                 <div className="strike">
-                  <span style={{textAlign:"center"}}>6 +</span>
-                  <p  style={{textAlign:"center"}}>Projects</p>
+                  <span style={{ textAlign: "center" }}>6 +</span>
+                  <p style={{ textAlign: "center" }}>Projects</p>
                 </div>
                 <div className="strike">
-                  <span  style={{textAlign:"center"}} >90 +</span>
-                  <p  style={{textAlign:"center"}} >Happy Clients</p>
+                  <span style={{ textAlign: "center" }}>90 +</span>
+                  <p style={{ textAlign: "center" }}>Happy Clients</p>
                 </div>
               </div>
 
@@ -166,7 +167,9 @@ function Home() {
         </div>
       </div>
 
+
       {/* projects showcase */}
+
 
       <div className="projects">
         <h2
@@ -183,9 +186,8 @@ function Home() {
             <div className="pic1">
               <img
                 className="project_pics"
-                src="https://clickup.com/blog/wp-content/uploads/2022/09/Google-Keep-Example.png"
+                src="https://images.idgesg.net/images/article/2021/09/google-keep-01-home-page-blank-100901215-large.jpg?auto=webp&quality=85,70"
                 alt=""
-                
               />
             </div>
 
@@ -234,9 +236,8 @@ function Home() {
             <div className="pic1">
               <img
                 className="project_pics"
-                src="https://user-images.githubusercontent.com/61585443/185205338-c20bb089-618f-49e2-b740-1c02838030a4.png"
+                src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/234b7181-bf39-40ea-b1c6-509f8af90763/de9isxy-0cd43878-e283-4d1e-8a57-524645e45004.jpg/v1/fit/w_828,h_466,q_70,strp/celestia_moore_netflix_banner_by_vrpond_de9isxy-414w-2x.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NzE5IiwicGF0aCI6IlwvZlwvMjM0YjcxODEtYmYzOS00MGVhLWIxYzYtNTA5ZjhhZjkwNzYzXC9kZTlpc3h5LTBjZDQzODc4LWUyODMtNGQxZS04YTU3LTUyNDY0NWU0NTAwNC5qcGciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.yUCv5vemm5EJHJO4KqX1yKfoCRQU3SwVX7jtQrqjI2M"
                 alt=""
-                
               />
             </div>
           </div>
@@ -249,7 +250,6 @@ function Home() {
                 className="project_pics"
                 src="https://themeforest.img.customer.envatousercontent.com/files/447285452/fc/01_fc.png?auto=compress%2Cformat&fit=crop&crop=top&w=590&h=300&s=eec4a7f98ff807b896be37f06a48c02d"
                 alt=""
-                
               />
             </div>
 
@@ -301,14 +301,15 @@ function Home() {
                 className="project_pics"
                 src="https://assets.awwwards.com/awards/submissions/2018/08/5b7e5eaa8034e.jpg"
                 alt=""
-                
               />
             </div>
           </div>
         </div>
       </div>
 
+
       {/* self refernce */}
+
 
       <div className="refer">
         <div
@@ -328,7 +329,9 @@ function Home() {
         </div>
       </div>
 
+
       {/* Testimonial */}
+
 
       {/* <div className="Testimonial">
             
@@ -342,7 +345,7 @@ function Home() {
         <div className="user">
           <img
             className="user_pic"
-            src="https://lh3.googleusercontent.com/pw/AIL4fc-_rgIUnC4KCXiqzqF4G4kZ2NlXCPAaSet5cjeZ0IdNCaOZuPs4qSTmsSiXwJGEqlQbsqCg-DKjzCOyfWLjpXEVKXlXz0BtQKX6bljOw8OdF4amfa-dB_ztiy6r8Mq45t59UxqhE0zTLPTmC3HN_UC7djCgZSbMkaYEYYswUbP7Lh_rad-qjE_EiuTzjh6YdJWOycxeJSZR4Qk68nzugPi51KvLjb7H3DGKibyv1668Hkw-xlJjLRwet3eTqGNHWs9M9g4HDt35MZZ6Q3M6kzE77BMNe_vGZUpthFfOpKftPWfM3D2FL6bsNnirJnn_1aPOMH4md7MxFw_J9788qlxJfJYpjAIdRHtysMlF6SmWiIZKKxQbcGzFzb8fkXJ28FhmDALoqhHou4NeDE01-8GJy1u_AofHhQwRFFLp3Ovz3hYCU5VB3E_xOGIUN84WfTne2DMi0f41VTG4rwYGJ1hcmoVqbGuV06DTVc6WBqObwBAnxALxC8MZH6fmQlcRlvKnwsyxGnCwebcmbgXLvL_g3DtMCdMHkVzEg76N_rPqnJ5XIPPJ6OxBirUsYJiAFv37PHrWC2B-JJRQgEZuar9UFbQqk8B8DIil0BZbYGhON0xS0dfzHI4yO59SxYV1rywSBlLCiy8GsSgTtwmSeu24rw1ZTYSVOxrj4Wd7MSh3UkjT2EplVN2SfwdhrrLLFs16OHrw9Gvu9PwsVsTM4P46J0OeQjSgP4PrX0KP3tinJk2uo6l1LGgSvi94tIjpCBRQaqybVzHXFmDYQJhO5Ub1XfyepakDrHixt6yRJovqACXgkdE5_0yVJPRdfehBcZP3FOKq8bBzz0VJ8NB1CgHBhoBhFw2OHq39yd6YH8QeT7164YlXtE4dBMyvKdxu_cTnq6AePKham6__isBYgfI=w499-h499-s-no?authuser=0"
+            src="https://lh3.googleusercontent.com/pw/AIL4fc_2d8ysLqYrlyzyzRoKD5z6wLOBFpsScrokyTM_RRJ3maJ1dF4v_lV-PXevhcSOHxr4_da34iiM6AWkRUVVgJec9e6WNNiq-yhiFVQ3Cz8y3_rJOBeKKIKatRXcpDctkLz_h20t6hGuvUub69Dgk8chZO3y3Mud0L6MW1u7PWkdsN3F2sRPftYftT10vK89-CtNEa-E8YUTg8gr12UD5-8naktD1b3QTgWKnFbtcerhvzCMF1WhtA1G2J2OW4aBX77c2z24a3P9Ou8_KYfX_lYcqwzav-TMBY4AVpBi4nHg464WasR8MQMo5rRtGp9YBYhkBPkXAXc003UPR7j1BHzdmY9eleVhJmRyK6Jt3KqPn-kld2BHfjaAoF9SbgvP-Tyb-tH9FuUCrbF-BrA1UXVBEfUe6kBTn6obE2N6oh0TPaUUCT0WinDVbKQa0KTkLUjnbr9LAaPk3VmyGXGauC8D8wlV4f1QbWRnNcZohqd3ehlNdmGJrGOI4y43rfGaPgUTc7sLHAStT5DYpccxCoumHSTPdUxN8TmsLjZEJ5wXwFV7Gl4em8lVfehSQeFGwl3Gkn9tJwmEOhqUqY04klC1UNPv4zZgoagKHoi4dk4gCwT5meDVzsWHCF3MVABuKhsnvyGXe5a5bx3M_oaWMu5zmGHGexUjcBkONZVG8Yt5WHMCif0I-J8mPUB1QojvoAf3psPS7DNC-S8HJgFSbqBQitf_ooAgJFZSqk2XxlG29qqw90KHCBmBhyp5eA5kSwjme1AhGWcPynMoAwSaqjXOxfWFGXmj2gmoSVIn8EM_9faesi7vGnPlLalPiYKFN5gLVFJaAJfQukl9xe6raxutzJrmWV19knuo-qaM5ydl6JCZNy3jnofmdgKtU2TcKFTI7sCAxReMKLO6aLXpuX0=w500-h500-s-no?authuser=0"
             alt="Avatar"
             style={{
               width: "450px",
@@ -354,6 +357,7 @@ function Home() {
           <ContactForm />
         </div>
       </div>
+
 
       {/* Footer */}
 
@@ -403,6 +407,7 @@ function Home() {
           </a>
         </div>
       </div>
+
       <Footer />
     </>
   );
