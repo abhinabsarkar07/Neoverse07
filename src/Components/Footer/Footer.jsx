@@ -1,11 +1,9 @@
-import React from 'react';
+import React from 'react'
 
-const Footer = () => {
+function Footer() {
   return (
-    <div style={{ backgroundColor:'black',padding: '15px', textAlign: 'center' }}>
-      <p style={{fontSize:"18px"}}>&copy; 2023 Abhinab Sarkar. All rights reserved.</p>
-    </div>
-  );
+    <div>Footer</div>
+  )
 }
 
-export default Footer;
+export default Footer
