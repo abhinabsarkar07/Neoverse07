@@ -3,7 +3,7 @@
   display: flex;
   flex-direction: column;
   line-height: 2;
-  font-weight: 800;
+  font-weight: 700;
   font-size: 25px;
   padding: 0px 50px;
   align-items: flex-start;
@@ -21,7 +21,7 @@
 .tech_doc {
   text-align: center;
   font-size: 30px;
-  font-weight: bold;
+  font-weight: 700;
   padding: 15px 25px;
 }
 
@@ -59,25 +59,33 @@
 
 .aboutme_heading {
   font-size: 35px;
-  font-weight: 800;
+  font-weight: 700;
   text-align: center;
   padding: 15px 25px;
 }
 
+.bio {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 50%;
+}
+
 .bio h3 {
   font-size: 35px;
-  font-weight: 800;
+  font-weight: 700;
   padding: 25px 0px;
 }
 .bio p {
-  font-size: 25px;
+  font-size: 20px;
   font-weight: 700;
+  line-height: 1.5;
   padding: 25px 0px;
 }
 
 .bio span {
   font-size: 25px;
-  font-weight: 800;
+  font-weight: 700;
   color: hsl(11deg 100% 50%);
 }
 
@@ -96,6 +104,64 @@
 
 /* user info section */
 
+/* projects showcase section */
+
+.projects {
+  padding: 50px 0 25px 0;
+  background-color: #1a1736;
+}
+
+.projects-container {
+  padding: 25px 15px;
+}
+
+.projects_heading{
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
+  padding: 15px 25px;
+}
+
+.project {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.project-image {
+  width: 100%;
+  max-width: 600px;
+}
+
+.project-pic {
+  width: 100%;
+  height: auto; /* Ensures aspect ratio is maintained */
+}
+
+.project-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 50%;
+}
+
+h3.project-title {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1.5;
+  padding: 15px 0px;
+}
+
+p.project-description {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.5;
+  padding: 15px 0px;
+}
+
+
+/* projects showcase section */
+
 /*css for all devices media queries*/
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
@@ -106,7 +172,7 @@
     margin-bottom: 1.5rem;
   }
   .aboutme_heading {
-    font-size: 30px;
+    font-size: 35px;
   }
 }
 
@@ -139,9 +205,9 @@
   .tech_doc {
     text-align: center;
     font-size: 25px;
-    font-weight: bold;
+    font-weight: 700;
     padding: 15px 25px;
-}
+  }
 
   .about_me {
     padding: 15px;
@@ -157,8 +223,7 @@
 
   .bio h3 {
     font-size: 35px;
-}
-  
+  }
 }
 
 /* Mobile devices (portrait and landscape) */
@@ -172,9 +237,9 @@
   .tech_doc {
     text-align: center;
     font-size: 20px;
-    font-weight: bold;
+    font-weight: 700;
     padding: 15px 25px;
-}
+  }
 
   .tech_icons {
     flex-direction: column;
@@ -192,14 +257,14 @@
     font-size: 25px;
     text-align: center;
     line-height: 1.5;
-}
+  }
 
-.bio p {
-  font-size: 20px;
-  padding: 15px 0px;
-  text-align: center;
-  line-height: 1.5;
-}
+  .bio p {
+    font-size: 18px;
+    padding: 15px 0px;
+    text-align: center;
+    line-height: 1.5;
+  }
 }
 
 @media only screen and (max-width: 425px) {
@@ -212,9 +277,9 @@
   .tech_doc {
     text-align: center;
     font-size: 15px;
-    font-weight: bold;
+    font-weight: 700;
     padding: 15px 25px;
-}
+  }
 
   .tech_icons {
     flex-direction: column;
@@ -232,12 +297,12 @@
     font-size: 20px;
     text-align: center;
     line-height: 1.5;
-}
+  }
 
-.bio p {
-  font-size: 15px;
-  text-align: center;
-  line-height: 1.5;
-  padding: 15px 0px;
-}
+  .bio p {
+    font-size: 15px;
+    text-align: center;
+    line-height: 1.5;
+    padding: 15px 0px;
+  }
 }

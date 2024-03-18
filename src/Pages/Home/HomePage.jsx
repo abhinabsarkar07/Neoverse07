@@ -19,7 +19,7 @@ const CoverContainer = styled.div`
   align-items: center;
   justify-content: space-evenly;
   width: 100%;
-  height: 90vh;
+  height: 80vh;
   background-size: cover;
   background-position: center center;
   background-image: url("https://images.unsplash.com/photo-1608611821879-e6a989ed75c4?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
@@ -27,22 +27,22 @@ const CoverContainer = styled.div`
 
   /* Media queries for different device sizes */
 
-  /* Mobile devices (portrait and landscape) */
-  @media only screen and (max-width: 465px) {
-    height: 90vh;
+  /* PCs and laptops */
+  @media only screen and (min-width: 1024px) {
+    height: 80vh;
   }
- 
 
   /* Tablets, iPads (portrait and landscape) */
   @media only screen and (min-width: 768px) and (max-width: 1023px) {
-    height: 90vh;
+    height: 80vh;
   }
+
   @media only screen and (max-width: 767px) {
     height: 50vh;
   }
 
-  /* PCs and laptops */
-  @media only screen and (min-width: 1024px) {
+  /* Mobile devices (portrait and landscape) */
+  @media only screen and (max-width: 465px) {
     height: 50vh;
   }
 `;
@@ -98,10 +98,43 @@ const iconsData = [
   },
 ];
 
+const projects = [
+  {
+    title: "Google-Keep Clone With Latest Web-Tech",
+    description:
+      "Introducing our innovative React-powered application – a dynamic and feature-rich clone of Google Keep. Seamlessly combining cutting-edge technology with intuitive design, our app brings the power of organization and productivity to your fingertips. Designed to mimic the beloved features of Google Keep, our application offers a sleek and user-friendly interface that makes note-taking and task management a breeze. With the versatility of React, we've crafted an experience that ensures fluid responsiveness and an immersive user journey across all devices.",
+    imageUrl:
+      "https://images.idgesg.net/images/article/2021/09/google-keep-01-home-page-blank-100901215-large.jpg?auto=webp&quality=85,70",
+  },
+  // {
+  //   title: "Netflix Clone With Latest Web-Tech",
+  //   description:
+  //     "Welcome to our cutting-edge Netflix Clone – a React-powered...",
+  //   imageUrl:
+  //     "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/234b7181-bf39-40ea-b1c6-509f8af90763/de9isxy-0cd43878-e283-4d1e-8a57-524645e45004.jpg/v1/fit/w_828,h_466,q_70,strp/celestia_moore_netflix_banner_by_vrpond_de9isxy-414w-2x.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9...",
+  // },
+  // {
+  //   title: "Footsall For All The Football Fans Out There",
+  //   description:
+  //     "Welcome to Footsall Football – your ultimate destination for...",
+  //   imageUrl:
+  //     "https://themeforest.img.customer.envatousercontent.com/files/447285452/fc/01_fc.png?auto=compress%2Cformat&fit=crop&crop=top&w=590&h=300&s=eec4a7f98ff807b896be37f06a48c02d",
+  // },
+  // {
+  //   title: "Experia a traveller Website",
+  //   description:
+  //     "Welcome to Experia Travelling – where your wanderlust meets...",
+  //   imageUrl:
+  //     "https://assets.awwwards.com/awards/submissions/2018/08/5b7e5eaa8034e.jpg",
+  // },
+];
+
 function HomePage() {
+  //usestate for project and client count
   const [projectsCount, setProjectsCount] = useState(0);
   const [clientsCount, setClientsCount] = useState(0);
 
+  //typewriter  effect on homepage heading
   const [text] = useTypewriter({
     words: ["Developer", "UI/UX Designer", "Photographer", "YouTuber"],
     loop: {},
@@ -110,7 +143,6 @@ function HomePage() {
   });
 
   //useeffect for  getting project count from the server
-
   useEffect(() => {
     const projectsInterval = setInterval(() => {
       if (projectsCount < 6) {
@@ -220,6 +252,34 @@ function HomePage() {
       </section>
 
       {/* user info ends*/}
+
+      {/* projects show case starts*/}
+
+      <div className="projects">
+        <div className="projects_heading">
+          <h2>Sample Projects</h2>
+        </div>
+
+        <div className="projects-container">
+          {projects.map((project, index) => (
+            <div key={index} className="project">
+              <div className="project-image">
+                <img
+                  className="project-pic"
+                  src={project.imageUrl}
+                  alt={project.title}
+                />
+              </div>
+              <div className="project-content">
+                <h3 className="project-title">{project.title}</h3>
+                <p className="project-description">{project.description}</p>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+
+      {/* projects show case starts*/}
     </>
   );
 }
