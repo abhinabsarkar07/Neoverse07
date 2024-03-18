@@ -31,18 +31,19 @@ const CoverContainer = styled.div`
   @media only screen and (max-width: 465px) {
     height: 90vh;
   }
-  @media only screen and (max-width: 767px) {
-    height: 90vh;
-  }
+ 
 
   /* Tablets, iPads (portrait and landscape) */
   @media only screen and (min-width: 768px) and (max-width: 1023px) {
     height: 90vh;
   }
+  @media only screen and (max-width: 767px) {
+    height: 50vh;
+  }
 
   /* PCs and laptops */
   @media only screen and (min-width: 1024px) {
-    height: 90vh;
+    height: 50vh;
   }
 `;
 
