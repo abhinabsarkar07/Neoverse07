@@ -13,6 +13,9 @@ import TopBar from "../../Components/TopBar/TopBar";
 //importing styling files
 import "./HomePage.css";
 
+//importing Footer component
+import Footer from "../../Components/Footer/Footer";
+
 const CoverContainer = styled.div`
   display: flex;
   flex-direction: column;
@@ -106,27 +109,27 @@ const projects = [
     imageUrl:
       "https://images.idgesg.net/images/article/2021/09/google-keep-01-home-page-blank-100901215-large.jpg?auto=webp&quality=85,70",
   },
-  // {
-  //   title: "Netflix Clone With Latest Web-Tech",
-  //   description:
-  //     "Welcome to our cutting-edge Netflix Clone – a React-powered...",
-  //   imageUrl:
-  //     "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/234b7181-bf39-40ea-b1c6-509f8af90763/de9isxy-0cd43878-e283-4d1e-8a57-524645e45004.jpg/v1/fit/w_828,h_466,q_70,strp/celestia_moore_netflix_banner_by_vrpond_de9isxy-414w-2x.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9...",
-  // },
-  // {
-  //   title: "Footsall For All The Football Fans Out There",
-  //   description:
-  //     "Welcome to Footsall Football – your ultimate destination for...",
-  //   imageUrl:
-  //     "https://themeforest.img.customer.envatousercontent.com/files/447285452/fc/01_fc.png?auto=compress%2Cformat&fit=crop&crop=top&w=590&h=300&s=eec4a7f98ff807b896be37f06a48c02d",
-  // },
-  // {
-  //   title: "Experia a traveller Website",
-  //   description:
-  //     "Welcome to Experia Travelling – where your wanderlust meets...",
-  //   imageUrl:
-  //     "https://assets.awwwards.com/awards/submissions/2018/08/5b7e5eaa8034e.jpg",
-  // },
+  {
+    title: "Netflix Clone With Latest Web-Tech",
+    description:
+      "Welcome to our cutting-edge Netflix Clone – a React-powered...",
+    imageUrl:
+      "https://user-images.githubusercontent.com/61585443/185205338-c20bb089-618f-49e2-b740-1c02838030a4.png",
+  },
+  {
+    title: "Footsall For All The Football Fans Out There",
+    description:
+      "Welcome to Footsall Football – your ultimate destination for...",
+    imageUrl:
+      "https://themeforest.img.customer.envatousercontent.com/files/447285452/fc/01_fc.png?auto=compress%2Cformat&fit=crop&crop=top&w=590&h=300&s=eec4a7f98ff807b896be37f06a48c02d",
+  },
+  {
+    title: "Experia a traveller Website",
+    description:
+      "Welcome to Experia Travelling – where your wanderlust meets...",
+    imageUrl:
+      "https://assets.awwwards.com/awards/submissions/2018/08/5b7e5eaa8034e.jpg",
+  },
 ];
 
 function HomePage() {
@@ -177,6 +180,7 @@ function HomePage() {
           </h1>
           <Button className="talk" variant="contained">
             Let's Talk
+            <img src="https://cdn.icon-icons.com/icons2/461/PNG/128/grimace_43851.png" alt="" className="smiley" />
           </Button>
         </div>
       </CoverContainer>
@@ -213,7 +217,7 @@ function HomePage() {
 
         <div className="about_me">
           <div className="bio_pic">
-            <img src=" " alt="sphere" />
+            {/* <img src="https://cdn.icon-icons.com/icons2/3767/PNG/512/sphere_ball_icon_231509.png" alt="sphere" /> */}
           </div>
 
           <div className="bio">
@@ -238,6 +242,7 @@ function HomePage() {
                   Contact Me
                 </Button>
               </div>
+
 
               <div className="strike">
                 <span>{clientsCount} +</span>
@@ -279,7 +284,28 @@ function HomePage() {
         </div>
       </div>
 
-      {/* projects show case starts*/}
+      {/* projects show case ends*/}
+
+
+      {/* contact show starts*/}
+
+      <div className="contact">
+        <div className="contact_quote">
+          <h2>
+            "I'm always looking for new opportunities to collaborate and grow." Let's Join and work Togethere.
+          </h2>
+        </div>
+
+        <div className="contact_social">
+          <Button variant="contained">Hit on my Social <img src="https://cdn.icon-icons.com/icons2/461/PNG/128/big_smile_43859.png" alt="smiley" className="smiley" /></Button>
+        </div>
+
+
+      </div>
+      {/* contact show ends*/}
+
+      <Footer />
+
     </>
   );
 }

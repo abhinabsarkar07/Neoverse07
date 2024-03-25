@@ -1,0 +1,55 @@
+.footer_main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 50px 15px 25px 15px;
+    background-color: #1a1736;
+    
+}
+.footerHead  h2{
+    font-size: 25px;
+    text-align: center;
+}
+
+.footerHead p{
+    font-size: 20px;
+    text-align: center;
+}
+
+.footerHead{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.socialMediaIcons {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.SocialIcons1 img{
+    width: 50%;
+    height: auto;
+}
+.SocialIcons2 img{
+    width: 50%;
+    height: auto
+}
+.SocialIcons3 img{
+    width: 50%;
+    height: auto
+}
+.SocialIcons4 img{
+    width: 50%;
+    height: auto
+}
+.SocialIcons5 img{
+    width: 50%;
+    height: auto
+}
+.SocialIcons6 img{
+    width: 50%;
+    height: auto
+}

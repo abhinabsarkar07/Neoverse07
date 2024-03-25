@@ -8,6 +8,20 @@
   padding: 0px 50px;
   align-items: flex-start;
   margin-bottom: 1.5rem;
+  gap: 25px;
+}
+
+.Owner_details .MuiButton-contained {
+  border-radius: 30px;
+  background-color: #b726e6;
+  font-size: 18px;
+  box-shadow: 0 0 10px 2px #ffffff, 0 0 20px 4px #ffffff;
+}
+
+.Owner_details .MuiButton-contained:hover {
+  background-color: #ffffff; 
+  color: #000000; 
+  box-shadow: 0 0 10px 2px #b726e6, 0 0 20px 4px #b726e6;
 }
 
 /* tech section */
@@ -102,6 +116,19 @@
   padding: 25px 0px;
 }
 
+.strike .MuiButton-contained{
+  background-color: #332859; 
+  color: #ffffff; 
+  box-shadow: 0 0 10px 2px #ffffff, 0 0 20px 4px #ffffff;
+  position: relative;
+}
+
+.strike .MuiButton-contained:hover {
+  background-color: #ffffff; 
+  color: #000000; 
+  box-shadow: 0 0 10px 2px #000000, 0 0 20px 4px #000000;
+}
+
 /* user info section */
 
 /* projects showcase section */
@@ -115,7 +142,7 @@
   padding: 25px 15px;
 }
 
-.projects_heading{
+.projects_heading {
   text-align: center;
   font-size: 35px;
   font-weight: 700;
@@ -126,6 +153,7 @@
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  margin: 25px 0px;
 }
 
 .project-image {
@@ -135,7 +163,7 @@
 
 .project-pic {
   width: 100%;
-  height: auto; /* Ensures aspect ratio is maintained */
+  height: auto;
 }
 
 .project-content {
@@ -159,8 +187,39 @@ p.project-description {
   padding: 15px 0px;
 }
 
-
 /* projects showcase section */
+
+/* contact section starts*/
+.contact {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 50px 0px 25px 0px;
+}
+
+img.smiley {
+  width: 50px;
+  height: auto;
+  padding: 0px 15px;
+}
+
+.contact_social .MuiButton-contained {
+  background-color: transparent;
+  border-radius: 30px;
+  box-shadow: 0 0 10px 2px #ffffff, 0 0 20px 4px #ffffff;
+}
+
+.contact_social .MuiButton-contained:hover {
+  background-color: #ffffff; 
+  color: #000000; 
+  box-shadow: 0 0 10px 2px #000000, 0 0 20px 4px #000000;
+}
+
+.contact_quote {
+  width: 50%;
+}
+
+/* contact section ends*/
 
 /*css for all devices media queries*/
 
@@ -192,14 +251,31 @@ p.project-description {
   .aboutme_heading {
     font-size: 30px;
   }
+
+  .project {
+    flex-direction: row;
+  }
+  .project-content {
+    width: 65%;
+  }
+  h3.project-title {
+    text-align: center;
+  }
+  p.project-description {
+    text-align: center;
+  }
 }
 
 /* Tablets, iPads (portrait and landscape) */
-@media only screen and (min-width: 768px) and (max-width: 1023px) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
   .Owner_details {
     font-size: 20px;
     padding: 0px 30px;
     margin-bottom: 1.5rem;
+  }
+
+  .Owner_details .MuiButton-contained {
+    font-size: 14px;
   }
 
   .tech_doc {
@@ -224,14 +300,35 @@ p.project-description {
   .bio h3 {
     font-size: 35px;
   }
+
+  .project {
+    flex-direction: column;
+  }
+  .project-content {
+    width: 80%;
+  }
+  h3.project-title {
+    text-align: center;
+  }
+  p.project-description {
+    text-align: center;
+  }
+  .projects_heading {
+    font-size: 25px;
+}
+  
 }
 
 /* Mobile devices (portrait and landscape) */
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 768px) {
   .Owner_details {
     font-size: 15px;
     padding: 0px 20px;
     margin-bottom: 1.5rem;
+  }
+
+  .Owner_details .MuiButton-contained {
+    font-size: 14px;
   }
 
   .tech_doc {
@@ -252,6 +349,15 @@ p.project-description {
   .aboutme_heading {
     font-size: 25px;
   }
+
+  .counter {
+    gap: 25px;
+    flex-direction: column;
+}
+
+  .bio {
+    width: 85%;
+}
 
   .bio h3 {
     font-size: 25px;
@@ -265,6 +371,32 @@ p.project-description {
     text-align: center;
     line-height: 1.5;
   }
+
+  .project {
+    flex-direction: column;
+  }
+  .project-content {
+    width: 80%;
+  }
+  h3.project-title {
+    text-align: center;
+  }
+  p.project-description {
+    text-align: center;
+  }
+  .projects_heading {
+    font-size: 25px;
+}
+
+.contact {
+  flex-direction: column;
+  gap: 25px;
+}
+
+.contact_quote{
+  width: 100% !important;
+  text-align: center;
+}
 }
 
 @media only screen and (max-width: 425px) {
@@ -272,6 +404,10 @@ p.project-description {
     font-size: 15px;
     padding: 0px 20px;
     margin-bottom: 1.5rem;
+  }
+
+  .Owner_details .MuiButton-contained {
+    font-size: 14px;
   }
 
   .tech_doc {
@@ -293,6 +429,14 @@ p.project-description {
     font-size: 20px;
   }
 
+  .counter {
+    gap: 25px;
+    flex-direction: column;
+}
+  .bio {
+    width: 85%;
+}
+
   .bio h3 {
     font-size: 20px;
     text-align: center;
@@ -305,4 +449,33 @@ p.project-description {
     line-height: 1.5;
     padding: 15px 0px;
   }
+  .projects_heading {
+    font-size: 20px;
+}
+.project {
+  flex-direction: column;
+}
+.project-content {
+  width: 80%;
+}
+h3.project-title {
+  text-align: center;
+  font-size: 20px;
+}
+p.project-description {
+  text-align: center;
+  font-size: 15px;
+}
+.projects_heading {
+  font-size: 20px;
+}
+.contact {
+  flex-direction: column;
+  gap: 25px;
+}
+
+.contact_quote{
+  width: 100% !important;
+  text-align: center;
+}
 }
