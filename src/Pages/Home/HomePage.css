@@ -253,11 +253,7 @@ img.smiley {
   }
 
   .project {
-<<<<<<< HEAD
-    flex-direction: row;
-=======
     flex-direction: column;
->>>>>>> 5a2b0b4092260b90a8492595147fad2f3104c2e9
   }
   .project-content {
     width: 65%;
@@ -304,7 +300,6 @@ img.smiley {
   .bio h3 {
     font-size: 35px;
   }
-<<<<<<< HEAD
 
   .project {
     flex-direction: column;
@@ -321,8 +316,6 @@ img.smiley {
   .projects_heading {
     font-size: 25px;
 }
-=======
->>>>>>> 5a2b0b4092260b90a8492595147fad2f3104c2e9
   
 }
 
@@ -391,7 +384,6 @@ img.smiley {
   p.project-description {
     text-align: center;
   }
-<<<<<<< HEAD
   .projects_heading {
     font-size: 25px;
 }
@@ -405,8 +397,6 @@ img.smiley {
   width: 100% !important;
   text-align: center;
 }
-=======
->>>>>>> 5a2b0b4092260b90a8492595147fad2f3104c2e9
 }
 
 @media only screen and (max-width: 425px) {
