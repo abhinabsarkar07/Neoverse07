@@ -253,7 +253,7 @@ img.smiley {
   }
 
   .project {
-    flex-direction: column;
+    flex-direction: row;
   }
   .project-content {
     width: 65%;
@@ -404,11 +404,16 @@ img.smiley {
     font-size: 15px;
     padding: 0px 20px;
     margin-bottom: 1.5rem;
+    gap: 15px;
   }
 
   .Owner_details .MuiButton-contained {
     font-size: 14px;
   }
+
+  img.smiley {
+    width: 35px;
+}
 
   .tech_doc {
     text-align: center;
@@ -475,6 +480,7 @@ p.project-description {
 }
 
 .contact_quote{
+  font-size: 15px;
   width: 100% !important;
   text-align: center;
 }

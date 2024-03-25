@@ -5,7 +5,7 @@
     align-items: center;
     padding: 50px 15px 25px 15px;
     background-color: #1a1736;
-    
+    gap: 25px;
 }
 .footerHead  h2{
     font-size: 25px;
@@ -27,6 +27,7 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    text-align: center;
 }
 
 .SocialIcons1 img{

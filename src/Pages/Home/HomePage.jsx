@@ -46,7 +46,7 @@ const CoverContainer = styled.div`
 
   /* Mobile devices (portrait and landscape) */
   @media only screen and (max-width: 465px) {
-    height: 50vh;
+    height: 90vh;
   }
 `;
 
