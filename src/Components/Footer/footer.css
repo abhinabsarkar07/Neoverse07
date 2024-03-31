@@ -1,4 +1,5 @@
-.footer_main{
+/* Base styles */
+.footer_main {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -7,17 +8,20 @@
     background-color: #1a1736;
     gap: 25px;
 }
-.footerHead  h2{
+
+.footerHead h2 {
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.footerHead p {
     font-size: 25px;
     text-align: center;
+    font-weight: 700;
 }
 
-.footerHead p{
-    font-size: 20px;
-    text-align: center;
-}
-
-.footerHead{
+.footerHead {
     display: flex;
     flex-direction: column;
     gap: 25px;
@@ -30,27 +34,53 @@
     text-align: center;
 }
 
-.SocialIcons1 img{
-    width: 50%;
+.SocialIcons1 img,
+.SocialIcons2 img,
+.SocialIcons3 img,
+.SocialIcons4 img,
+.SocialIcons5 img,
+.SocialIcons6 img {
+    width: 30%;
     height: auto;
 }
-.SocialIcons2 img{
-    width: 50%;
-    height: auto
+
+/* Media queries */
+@media screen and (max-width: 480px) {
+    /* Mobile styles */
+    .footer_main {
+        padding: 30px 10px 20px 10px;
+    }
+    
+    .footerHead h2 {
+        font-size: 20px;
+    }
+    
+    .footerHead p {
+        font-size: 16px;
+    }
+    
+    .socialMediaIcons {
+        flex-wrap: wrap;
+    }
+    
+    .SocialIcons1 img,
+    .SocialIcons2 img,
+    .SocialIcons3 img,
+    .SocialIcons4 img,
+    .SocialIcons5 img,
+    .SocialIcons6 img {
+        width: 40%;
+    }
 }
-.SocialIcons3 img{
-    width: 50%;
-    height: auto
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    /* Tablet styles */
 }
-.SocialIcons4 img{
-    width: 50%;
-    height: auto
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    /* PC styles */
 }
-.SocialIcons5 img{
-    width: 50%;
-    height: auto
-}
-.SocialIcons6 img{
-    width: 50%;
-    height: auto
+
+@media screen and (min-width: 1025px) {
+    /* Laptop styles */
 }

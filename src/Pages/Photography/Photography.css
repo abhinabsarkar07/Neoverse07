@@ -1,0 +1,42 @@
+.Gallery_Header {
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  .menu-tabs_container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .menu-tabs {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .menu-tabs_button {
+    background-color: #2196f3;
+    color: #fff;
+  }
+  
+  .gallery_view {
+    margin: 20px auto;
+  }
+  
+  /* Styles for MUI Card */
+  .MuiCard-root {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .MuiCardContent-root {
+    flex-grow: 1;
+  }
+  
+  /* Styles for MUI CardMedia */
+  .MuiCardMedia-root {
+    width: 100%;
+    height: 200px; /* Adjust height as needed */
+    object-fit: cover;
+  }
+  
